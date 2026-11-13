@@ -1,0 +1,40 @@
+body,html{
+  height: 100%;
+  margin: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero-image{
+  background-image: linear-gradient(rgba(139, 168, 253, 0.5), rgba(250, 205, 100, 0.5)), url(https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/a7578420-28c5-4d79-bfe3-f97c8d157d90/OBMC+Intermediate+classroom+3.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+p{
+    color: #000000;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.hero-text{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer{
+    background-color: rgb(26, 25, 25);
+    color: rgb(157, 157, 157);
+}
